@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tareas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen">
+    <div class="container h-screen mx-auto flex justify-center py-4">
+      <h1 class="text-3xl font-bold text-center">Lista de tareas</h1>
+      <div class="w-1/2 flex flex-col">
+        <div class="flex w-full my-4">
+          <input
+            type="text"
+            class="outline-none border text-sm px-2 rounded-sm mr-2 w-3/4"
+          /><button
+            class="bg-blue-400 hover:bg-blue-600 transition duration-150 ease-in text-white font-bold text-sm rounded-sm px-4 py-2 flex-1"
+            id="btn-guardar"
+          >
+            Guardar
+          </button>
+        </div>
+        <div class="flex flex-col" id="tareas">
+          <!--Tareas-->
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
