@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen">
+    <div class="max-w-screen-2xl min-h-screen mx-auto bg-gray-700">
+      <header class="flex justify-center py-2">
+        <div class="flex w-1/2">
+          <input
+            id="input"
+            type="text"
+            class="outline-none rounded-sm px-4 text-sm w-5/6 mr-4"
+          /><button
+            id="btn-buscar"
+            class="text-white font-bold text-sm bg-green-600 px-4 py-2 rounded-sm flex-1"
+          >
+            Buscar
+          </button>
+        </div>
+      </header>
+      <div id="libros" class="grid grid-cols-4 gap-8 p-6">
+        <!--Libros aquí-->
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

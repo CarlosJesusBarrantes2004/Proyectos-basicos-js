@@ -1,0 +1,122 @@
+[
+  {
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "ISBN": "978-0-307-26563-1",
+    "genero": "Realismo mágico",
+    "paginas": 432,
+    "idioma": "Español"
+  },
+  {
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "ISBN": "978-0-452-28423-4",
+    "genero": "Ciencia ficción",
+    "paginas": 328,
+    "idioma": "Inglés"
+  },
+  {
+    "titulo": "El señor de los anillos",
+    "autor": "J.R.R. Tolkien",
+    "ISBN": "978-84-450-7637-1",
+    "genero": "Fantasía",
+    "paginas": 1178,
+    "idioma": "Español"
+  },
+  {
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Jane Austen",
+    "ISBN": "978-0-307-27778-8",
+    "genero": "Romance",
+    "paginas": 432,
+    "idioma": "Inglés"
+  },
+  {
+    "titulo": "Crónica de una muerte anunciada",
+    "autor": "Gabriel García Márquez",
+    "ISBN": "978-84-376-0471-2",
+    "genero": "Realismo",
+    "paginas": 128,
+    "idioma": "Español"
+  },
+  {
+    "titulo": "Matar a un ruiseñor",
+    "autor": "Harper Lee",
+    "ISBN": "978-0-06-112008-4",
+    "genero": "Ficción",
+    "paginas": 336,
+    "idioma": "Inglés"
+  },
+  {
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "ISBN": "978-84-376-0392-0",
+    "genero": "Novela",
+    "paginas": 1024,
+    "idioma": "Español"
+  },
+  {
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. Rowling",
+    "ISBN": "978-0-7475-3269-6",
+    "genero": "Fantasía",
+    "paginas": 332,
+    "idioma": "Inglés"
+  },
+  {
+    "titulo": "El gran Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "ISBN": "978-0-7432-7356-5",
+    "genero": "Ficción",
+    "paginas": 180,
+    "idioma": "Inglés"
+  },
+  {
+    "titulo": "El nombre de la rosa",
+    "autor": "Umberto Eco",
+    "ISBN": "978-84-204-4358-2",
+    "genero": "Misterio",
+    "paginas": 503,
+    "idioma": "Italiano"
+  },
+  {
+    "titulo": "Drácula",
+    "autor": "Bram Stoker",
+    "ISBN": "978-0-553-21311-5",
+    "genero": "Terror",
+    "paginas": 448,
+    "idioma": "Inglés"
+  },
+  {
+    "titulo": "El Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "ISBN": "978-84-450-7659-3",
+    "genero": "Fantasía",
+    "paginas": 304,
+    "idioma": "Español"
+  },
+  {
+    "titulo": "Ensayo sobre la ceguera",
+    "autor": "José Saramago",
+    "ISBN": "978-950-07-2814-7",
+    "genero": "Ficción",
+    "paginas": 320,
+    "idioma": "Español"
+  },
+  {
+    "titulo": "Los miserables",
+    "autor": "Victor Hugo",
+    "ISBN": "978-84-9104-210-6",
+    "genero": "Novela",
+    "paginas": 1232,
+    "idioma": "Francés"
+  },
+  {
+    "titulo": "Crimen y castigo",
+    "autor": "Fiodor Dostoievski",
+    "ISBN": "978-84-206-2554-9",
+    "genero": "Ficción",
+    "paginas": 672,
+    "idioma": "Ruso"
+  }
+]

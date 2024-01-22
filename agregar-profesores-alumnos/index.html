@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen">
+    <div class="container mx-auto min-h-screen py-4">
+      <h1 class="text-3xl font-bold text-center mb-5">
+        Estudiantes y Profesores
+      </h1>
+
+      <div
+        id="alert"
+        class="bg-red-300 border border-red-500 rounded-md p-4 mb-5 hidden"
+      >
+        Por favor ingrese todos los datos.
+      </div>
+
+      <form id="form" class="flex flex-col">
+        <input
+          type="text"
+          placeholder="Name"
+          class="mb-2 outline-none bg-slate-100 rounded-sm px-3 py-2 text-base"
+          name="name"
+          required
+        />
+        <input
+          type="number"
+          class="mb-2 outline-none bg-slate-100 rounded-sm px-3 py-2 text-base"
+          name="age"
+          min="0"
+          step="1"
+          required
+        />
+        <select
+          name="position"
+          id=""
+          class="mb-2 outline-none rounded-md border px-3 py-2 text-base"
+        >
+          <option value="teacher" selected>Teacher</option>
+          <option value="student">Student</option>
+        </select>
+
+        <div>
+          <button
+            type="submit"
+            class="px-3 py-2 rounded-md bg-blue-500 text-white font-bold text-base hover:bg-blue-600 ease-in transition duration-150"
+          >
+            Agregar
+          </button>
+        </div>
+      </form>
+
+      <section class="grid grid-cols-2">
+        <div id="students">
+          <!--Estudiantes-->
+        </div>
+        <div id="teachers">
+          <!--Profesores-->
+        </div>
+      </section>
+    </div>
+
+    <template id="student-card">
+      <article class="mb-2 p-2 shadow-md rounded-sm">
+        <h5>
+          <span class="text-base text-semibold mr-2">Nombre</span
+          ><span
+            class="text-white text-xs font-bold px-2 py-1 rounded-sm bg-red-700"
+            ><!--Aprobado o reprobado--></span
+          >
+        </h5>
+        <h6 class="text-sm font-semibold">Estudiante</h6>
+        <p class="text-base font-light">edad</p>
+        <button
+          id="btn-aprobar"
+          class="bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-sm hover:bg-green-600 transition ease-in duration-150"
+        >
+          Aprobar
+        </button>
+        <button
+          id="btn-reprobar"
+          class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-sm hover:bg-red-600 transition ease-in duration-150"
+        >
+          Reprobar
+        </button>
+      </article>
+    </template>
+
+    <template id="teacher-card">
+      <article class="mb-2 p-2 bg-black text-white rounded-sm">
+        <h5 class="text-white text-sm font-bold">Nombre</h5>
+        <h6 class="text-white text-sm font-semibold">Profesor</h6>
+        <p class="text-white text-base font-light">edad</p>
+      </article>
+    </template>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

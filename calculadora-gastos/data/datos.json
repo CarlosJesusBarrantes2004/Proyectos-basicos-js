@@ -1,0 +1,12 @@
+[
+  { "ingreso": 1200, "egreso": 250 },
+  { "ingreso": 800, "egreso": 100 },
+  { "ingreso": 1500, "egreso": 300 },
+  { "ingreso": 600, "egreso": 50 },
+  { "ingreso": 2000, "egreso": 400 },
+  { "ingreso": 1000, "egreso": 150 },
+  { "ingreso": 1800, "egreso": 200 },
+  { "ingreso": 500, "egreso": 80 },
+  { "ingreso": 1300, "egreso": 180 },
+  { "ingreso": 700, "egreso": 120 }
+]
